@@ -14,10 +14,10 @@ digit = 4
 
 chars = ""
 
-for i in range(uppercase):
+for i in range(lowercase):
     chars += lowercase_letters[randrange(len(lowercase_letters))]
 
-for i in range(lowercase):
+for i in range(uppercase):
     chars += uppercase_letters[randrange(len(uppercase_letters))]
 
 for i in range(digit):
